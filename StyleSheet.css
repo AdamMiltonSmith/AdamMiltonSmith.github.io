@@ -1,0 +1,90 @@
+body {background-color: #4F6D93;
+      background-image:url("DigitalTestureAndPatternC1.1.jpg") ;
+      background-repeat: repeat; 
+      background-size: 300px, 300px;
+      color: #666666;
+      font-family: Arial,Helvetica,sans-serif;}
+
+h1 {font-family: Georgia,"Times New Roman",serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    color:#5B2C3F;
+    text-decoration: underline;
+	}
+h2 {font-family: Georgia,"Times New Roman",serif;
+    font-weight: Bold;
+    text-align: center;
+	background-color:"FFFFFF";
+    margin-bottom:0;
+    margin-top: 0;}
+header{background-image: linear-gradient(to right, #E74C3C,#884EA0);
+	bakground-repeat: no-repeat;
+	text-align: center;
+	height:120px;
+	padding-top: 45px;
+	}
+
+#wrapper {background-image: linear-gradient(to right, #FDFEFE,#AED6F1);
+	  bakground-repeat: no-repeat;
+          box-shadow: 3px 3px #333333;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          max-width: 2048px;
+          min-width: 960px;}
+
+ 
+#me{background-image:url("CooperPortrait.jpg"), url("selfPortrait1.jpg");
+background-position: left, right;
+background-size: 50% 100%;
+background-repeat: no-repeat;
+height: 400px;
+width: Auto;
+   }
+
+#gallery {position: relative;
+	  height:675px;}
+
+   #gallery ul{ width: 500px;
+		height:500px;
+                list-style-type: none;}
+
+   #gallery li{ display: inline;
+                float: left;
+                padding: 10px;}
+
+   #gallery a{text-decoration: none;
+              color #333;
+              font-style: italic;}
+
+   #gallery span{ display: none;}
+
+    #gallery a:hover span { display: block;
+                            position: absolute;
+                            top: 10px;
+                            left: 300px;
+                            text-align: center;}
+  
+iframe{
+width:1080px; 
+height:460px; 
+align:middle;
+margin:0px;
+padding:0px;
+border:0px;
+
+
+}
+nav {font-weight:bold;
+     font-size: 20px;
+     padding:   19px;
+     float:left;
+     width:80px;
+     height:485px;
+     background-image: linear-gradient(to bottom, #E74C3C,#884EA0);}
+		 
+ nav a {text-decoration: none;}
+  nav a:link {color: #000033;}
+  nav a:visited {color: #344873;}
+  nav a:hover {color: #FFFFFF;}
